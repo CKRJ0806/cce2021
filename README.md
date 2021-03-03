@@ -46,7 +46,7 @@ int main ()
 	printf("\n");
 }		
 ˋˋˋ
-#第三題 進階題：A的B次方函數
+## 第三題 進階題：A的B次方函數
 ˋˋˋc
 #include <stdio.h>
 int MYPOWER(int x,int y)
