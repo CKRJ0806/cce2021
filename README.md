@@ -44,7 +44,8 @@ int main ()
 		printf("%d ",a[i]);
 	}
 	printf("\n");
-}		
+}
+
 ˋˋˋ
 # 第三題 進階題：A的B次方函數
 ˋˋˋc
@@ -67,6 +68,7 @@ int main(void)
 	printf("[%d]",MYPOWER(a,b));
 	return 0;
 }
+
 ˋˋˋ
 # 第四題 進階題：漸增數列相加 
 ˋˋˋc
@@ -93,7 +95,8 @@ int main ()
 	int a;
 	scanf("%d",&a);
 	printf("%d=%d*%d+%d*%d+%d*%d\n",a,50,a/50,5,a%50/5,1,a%50%5/1);
-}	
+}
+
 ˋˋˋ
 # 第六題 基礎題：因數個數
 ˋˋˋc
@@ -108,7 +111,8 @@ int main()
 		if(a%i==0)c++;
 	}
 	printf("%d\n",c);
-}	
+}
+
 ˋˋˋ
 # 第七題 基礎題：找倍數 
 ˋˋˋc
@@ -123,7 +127,8 @@ int main ()
 		}
 	}
 	printf("%d\n",b);
-}	
+}
+
 ˋˋˋ
 # 第八題 基礎題：整數轉換為等級
 ˋˋˋc
@@ -137,7 +142,8 @@ int main ()
 	else if(a>=80)printf("B\n");
 	else if(a>=60)printf("C\n");
 	else printf("F\n");
-}	
+}
+
 ˋˋˋ
 
 
