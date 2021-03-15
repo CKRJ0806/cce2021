@@ -239,7 +239,148 @@ int main()
 第二題
 
 ```c
+```
+進階題：大小寫轉換 
+```c 
+#include <stdio.h>
+int main ()
+{
+	char a[10];
+	scanf("%s",&a);
+	for(int i=0;i<10;i++){
+		if(a[i]>='A'&&a[i]<='Z')a[i]+=32;
+		else if(a[i]>='a'&&a[i]<='z')a[i]-=32;
+	}
+	printf("%s\n",a);
+}		
+```
+進階題：漸增數列相加 
+```c
+#include <stdio.h>
+int main()
+{
+	int a,b=0,c;
+	scanf("%d",&a);
+	for(int i=1;i<a;i++)
+	{
+		c=i*(i+1);
+		b+=c;
+		
+	}
+	printf("%d\n",b);
+}
+```
+進階題：計算陣列的平方值
+```c
+#include <stdio.h>
+int main ()
+{
+	int b ,a[100];
+	scanf("%d",&b);
+	for(int i=1;i<=b;i++)
+	{
+		scanf("%d",&a[i]);
+		printf("%d,",a[i]*a[i]);
+	}
+	printf("\n");	
+}	
+```
+進階題：2進位轉10進位 
+```c
+#include <stdio.h>
+int main ()
+{
+	int a,b=1,c=0;
+	scanf("%d",&a);
+	while(a>0)
+	{
+		c+=(a%10)*b;
+		b=b*2;
+		a/=10;
+		}
+	printf("%d\n",c);
+}		
+```
+基礎題：計算幾週與幾天 
+```c
+#include <stdio.h>
+int main ()
+{
+	int a;
+	scanf("%d",&a);
+	printf("%d %d\n",a/7,a%7);
+}	
+```
+基礎題：計程車資計算 
+```c
+#include <stdio.h>
+int main()
+{
+	int a,b,c;
+	scanf("%d",&a);
+	if (a<=2000)c=100;
+	else {
+		b=a-2000;
+		if(b%500==0)
+			c=100+(b/500)*5;
+		else
+			c=100+((b/500)+1)*5;
+	}
+	printf("%d\n",c);
+		
+}
+```
+基礎題：兩數間可被5整除的整數 
+```c
+#include <stdio.h>
+int main()
+{
+	int a,b,k;
+	scanf("%d%d",&a,&b);
+	if(a>b){
+		k=a;
+		a=b;
+		b=k;
+	}	
+	
+	for(int i=a;i<=b;i++)
+	{
+		int c=i%5;
+		if(c==0)
+		printf("%d\n",i);
+	}	
+	
+}	
+```
+基礎題：整數間最大距離 
+```c
+#include <stdio.h>
+int main()
+{
+	int a,b,c,k;
+	scanf("%d%d%d",&a,&b,&c);
+	if(a<b)
+	{
+		k=a;
+		a=b;
+		b=k;
+	}
 
+	 if(a<c)
+	{
+		k=a;
+		a=c;
+		c=k;
+	}
+	 if(b<c)
+	{
+		k=b;
+		b=c;
+		c=k;
+	}
+	printf("%d\n",a-c);			
+}		
+```
 	
 
 
