@@ -222,7 +222,7 @@ int main()
 ```
 }
 第三周
-#第一題
+# 第一題
 ```c
 #include <stdio.h>
 int a[5]={0,10,20,30,40};
@@ -236,11 +236,11 @@ int main()
 }
 ```
 
-#第二題
+# 第二題
 
 ```c
 ```
-#進階題：大小寫轉換 
+# 進階題：大小寫轉換 
 ```c 
 #include <stdio.h>
 int main ()
@@ -254,7 +254,7 @@ int main ()
 	printf("%s\n",a);
 }		
 ```
-#進階題：漸增數列相加 
+# 進階題：漸增數列相加 
 ```c
 #include <stdio.h>
 int main()
@@ -270,7 +270,7 @@ int main()
 	printf("%d\n",b);
 }
 ```
-#進階題：計算陣列的平方值
+# 進階題：計算陣列的平方值
 ```c
 #include <stdio.h>
 int main ()
@@ -285,7 +285,7 @@ int main ()
 	printf("\n");	
 }	
 ```
-#進階題：2進位轉10進位 
+# 進階題：2進位轉10進位 
 ```c
 #include <stdio.h>
 int main ()
@@ -301,7 +301,7 @@ int main ()
 	printf("%d\n",c);
 }		
 ```
-#基礎題：計算幾週與幾天 
+# 基礎題：計算幾週與幾天 
 ```c
 #include <stdio.h>
 int main ()
@@ -311,7 +311,7 @@ int main ()
 	printf("%d %d\n",a/7,a%7);
 }	
 ```
-#基礎題：計程車資計算 
+# 基礎題：計程車資計算 
 ```c
 #include <stdio.h>
 int main()
@@ -330,7 +330,7 @@ int main()
 		
 }
 ```
-#基礎題：兩數間可被5整除的整數 
+# 基礎題：兩數間可被5整除的整數 
 ```c
 #include <stdio.h>
 int main()
@@ -352,7 +352,7 @@ int main()
 	
 }	
 ```
-#基礎題：整數間最大距離 
+# 基礎題：整數間最大距離 
 ```c
 #include <stdio.h>
 int main()
